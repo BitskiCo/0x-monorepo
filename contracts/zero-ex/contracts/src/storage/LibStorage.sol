@@ -23,18 +23,22 @@ pragma experimental ABIEncoderV2;
 /// @dev Common storage helpers
 library LibStorage {
 
-    /// @dev What to multiply a storage ID by to get its offset.
-    ///      This is also the maximum number of fields inside a storage
-    ///      bucket.
-    uint256 internal constant STORAGE_OFFSET_MULTIPLIER = 1e18;
-
     /// @dev Storage IDs for feature storage buckets.
+    ///      WARNING: APPEND-ONLY.
     enum StorageId {
         Unused, // Unused buffer for state accidents.
         Proxy,
         SimpleFunctionRegistry,
-        Ownable
+        Ownable,
+        TokenSpender,
+        PuppetPool
     }
+
+    /// @dev What to multiply a storage ID by to get its offset.
+    ///      This is also the maximum number of fields inside a storage
+    ///      bucket.
+    ///      WARNING: DO NOT CHANGE.
+    uint256 internal constant STORAGE_OFFSET_MULTIPLIER = 1e18;
 
     /// @dev Get the storage offset given a storage ID.
     /// @param storageId An entry in `StorageId`
