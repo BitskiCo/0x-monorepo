@@ -14,6 +14,7 @@
         "generated-artifacts/Puppet.json",
         "generated-artifacts/ZeroEx.json",
         "test/generated-artifacts/Bootstrap.json",
+        "test/generated-artifacts/FillQuoteTransformer.json",
         "test/generated-artifacts/FixinCommon.json",
         "test/generated-artifacts/FullMigration.json",
         "test/generated-artifacts/IBootstrap.json",
@@ -45,6 +46,7 @@
         "test/generated-artifacts/LibTokenSpenderStorage.json",
         "test/generated-artifacts/LibTransformERC20RichErrors.json",
         "test/generated-artifacts/Ownable.json",
+        "test/generated-artifacts/PayTakerTransformer.json",
         "test/generated-artifacts/Puppet.json",
         "test/generated-artifacts/PuppetPool.json",
         "test/generated-artifacts/SimpleFunctionRegistry.json",
@@ -62,6 +64,7 @@
         "test/generated-artifacts/TestZeroExFeature.json",
         "test/generated-artifacts/TokenSpender.json",
         "test/generated-artifacts/TransformERC20.json",
+        "test/generated-artifacts/WethTransformer.json",
         "test/generated-artifacts/ZeroEx.json"
     ],
     "exclude": ["./deploy/solc/solc_bin"]

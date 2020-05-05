@@ -4,6 +4,7 @@
  * -----------------------------------------------------------------------------
  */
 export * from '../test/generated-wrappers/bootstrap';
+export * from '../test/generated-wrappers/fill_quote_transformer';
 export * from '../test/generated-wrappers/fixin_common';
 export * from '../test/generated-wrappers/full_migration';
 export * from '../test/generated-wrappers/i_bootstrap';
@@ -35,6 +36,7 @@ export * from '../test/generated-wrappers/lib_storage';
 export * from '../test/generated-wrappers/lib_token_spender_storage';
 export * from '../test/generated-wrappers/lib_transform_erc20_rich_errors';
 export * from '../test/generated-wrappers/ownable';
+export * from '../test/generated-wrappers/pay_taker_transformer';
 export * from '../test/generated-wrappers/puppet';
 export * from '../test/generated-wrappers/puppet_pool';
 export * from '../test/generated-wrappers/simple_function_registry';
@@ -52,4 +54,5 @@ export * from '../test/generated-wrappers/test_transform_erc20';
 export * from '../test/generated-wrappers/test_zero_ex_feature';
 export * from '../test/generated-wrappers/token_spender';
 export * from '../test/generated-wrappers/transform_erc20';
+export * from '../test/generated-wrappers/weth_transformer';
 export * from '../test/generated-wrappers/zero_ex';
